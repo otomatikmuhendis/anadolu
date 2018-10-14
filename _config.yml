@@ -1,21 +1,21 @@
 # Website details
-name: Name
-description: Description
-email: email@site.com
-author: author
-lang: en
-locale: en_US
+name: Veri Veri Anadolu
+description: illere göre bilgiler
+email: otomatikmuhendis@yahoo.com
+author: olcay
+lang: tr
+locale: tr_TR
 
 # Jekyll
 paginate: 10
 highlighter: rouge
 markdown: kramdown
 plugins: [jekyll-paginate]
-timezone: America/New_York
+timezone: Europe/Istanbul
 paginateLabel: page
 paginate_path: "page/:num"
-permalink: /:categories/:year/:month/:day/:title
-baseurl: https://ozgrozer.github.io/dasper
+permalink: /veri/:title
+baseurl: http://anadolu.otomatikmuhendis.com
 
 # Includes
 addthisId: ""
