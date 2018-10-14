@@ -38,6 +38,10 @@ layout: default
   <!-- Article description -->
   <section>{{ page.content }}</section>
 
+  <h2 id="dataTitle"></h2>
+
+  <ul id="dataList"></ul>
+
 </article><!-- article -->
 
 <!-- If addthisId declared -->
@@ -62,3 +66,8 @@ layout: default
   </div><!-- .full -->
 
 {% endif %}
+
+<script src="{{ site.baseurl }}/assets/js/svg-turkiye-haritasi.js"></script>
+<script>
+  svgturkiyeharitasi();
+</script>

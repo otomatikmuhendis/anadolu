@@ -3,14 +3,24 @@
 function svgturkiyeharitasi() {
   const element = document.querySelector('#svg-turkiye-haritasi');
   const info = document.querySelector('.il-isimleri');
+  const dataList = document.querySelector('#dataList');
+  const dataTitle = document.querySelector('#dataTitle');
+
+  for(var key in data){
+    var path = document.querySelector('g[data-plakakodu="'+key+'"]');
+    path.classList.add('notEmpty');
+  }
 
   element.addEventListener(
     'mouseover',
     function (event) {
-      if (event.target.tagName === 'path' && event.target.parentNode.id !== 'guney-kibris') {
+      if (event.target.tagName === 'path' 
+      && data[event.target.parentNode.getAttribute('data-plakakodu')] !== undefined) {
         info.innerHTML = [
           '<div>',
           event.target.parentNode.getAttribute('data-iladi'),
+          ' - ',
+          data[event.target.parentNode.getAttribute('data-plakakodu')].length,
           '</div>'
         ].join('');
       }
@@ -35,22 +45,27 @@ function svgturkiyeharitasi() {
   element.addEventListener(
     'click',
     function (event) {
-      if (event.target.tagName === 'path') {
+      dataList.innerHTML = '';
+      dataTitle.innerHTML = '';
+      if (event.target.tagName === 'path'
+      && data[event.target.parentNode.getAttribute('data-plakakodu')] !== undefined) {
         const parent = event.target.parentNode;
         const id = parent.getAttribute('id');
 
-        if (
-          id === 'guney-kibris'
-        ) {
-          return;
-        }
+        var plakaKodu = parent.getAttribute('data-plakakodu');
+        var ilAdi = parent.getAttribute('data-iladi');
 
-        window.location.href = (
-          '#'
-          + id
-          + '-'
-          + parent.getAttribute('data-plakakodu')
-        );
+        dataTitle.innerHTML = ilAdi;
+
+        data[plakaKodu].forEach(element => {
+          dataList.innerHTML += [
+            '<li>',
+            '<a href="', element.url, '">',
+            element.title,
+            '</a>',
+            '</li>'
+          ].join('');
+        });
       }
     }
   );

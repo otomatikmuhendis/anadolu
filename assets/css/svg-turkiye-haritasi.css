@@ -27,6 +27,12 @@
   cursor: pointer;
   fill: #222;
 }
+#svg-turkiye-haritasi .notEmpty path {
+  fill: rgb(13, 79, 129);
+}
 #svg-turkiye-haritasi path:hover {
   fill: #1094F6;
+}
+#dataList{
+  margin-top: 20px;
 }

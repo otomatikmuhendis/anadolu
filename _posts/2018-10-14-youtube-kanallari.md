@@ -1,9 +1,15 @@
 ---
 layout: article
-title: YouTube Kanallari
-date: 2018-10-13 15:33:00+0200
+title: YouTube Kanalları
 ---
 
 İllere göre YouTube kanalları listesi.
 
-
+<script>
+var data={
+    '06': [{
+        title: 'Angara Bebesi',
+        url: 'https://www.youtube.com/channel/UCXssGfBY5Q9LZIFflo5mBbA'
+    }]
+};
+</script>
