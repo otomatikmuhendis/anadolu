@@ -1,25 +1,36 @@
-# Dasper
-Dasper is a [Jekyll](https://jekyllrb.com/) theme inspired by [Ghost](https://ghost.org/)'s default theme [Casper](https://demo.ghost.io/) and also [Jasper](https://biomadeira.github.io/jasper/) & [Kasper](http://rosario.io/).
+# Veri Veri Anadolu
 
-## Live Demo
-- [ozgrozer.github.io/dasper](https://ozgrozer.github.io/dasper)
+İllere göre verilerin sınıflandırıldığı statik bir blog. Açık kaynaklı bu proje her türlü katılıma açıktır. Katkıda bulunmak isteyenler istedikleri verileri ekleyebilir, gönülleri isterse verinin gösterim biçimini dahi istedikleri şekilde düzenleyebilirler.
 
-## Includes
-- Pagination
-- 404 page
-- Fastclick ([@ftlabs](https://github.com/ftlabs/fastclick))
-- Syntax highlighting ([@PrismJS](https://github.com/PrismJS/prism))
-- Sitemap generator ([@kinnetica](https://github.com/kinnetica/jekyll-plugins))
-- RSS generator ([@agelber](https://github.com/agelber/jekyll-rss))
-- Addthis sharing buttons
-- Disqus comments
-- Google Analytics tracking
+## Site
 
-## Usage
-1. Fork the repo.
-2. Change repo name from "dasper" to "username.github.io".
-3. Update your informations in the `_config.yml` file.
-4. You're ready to go on https://username.github.io/.
+- [anadolu.otomatikmuhendis.com](http://anadolu.otomatikmuhendis.com/)
 
-## Copyright & License
-Copyright (c) 2016 - Released under the MIT License.
+## Local'de Çalıştırmak
+//TODO Türkçe'ye çevir
+1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
+2. Clone down your fork `git clone https://github.com/yourusername/yourusername.github.io.git`
+3. Serve the site and watch for markup/sass changes `jekyll serve`
+4. View your website at http://127.0.0.1:4000/
+5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+
+## Katkıda bulunmak
+//TODO Türkçe'ye çevir ve daha açıklayıcı ol
+1. Fork
+2. Fix
+3. Push
+4. Send pull-request
+
+## Teşekkürler
+
+- [Jekyll](https://github.com/jekyll/jekyll) - Dinamik şekilde statik sayfa üretimini sağladıkları için
+- [ozgrozer](https://github.com/ozgrozer/) - Tasarım için
+- [dnomak](https://github.com/dnomak/) - Harita için
+
+## Soru
+
+[Bir issue açın](https://github.com/otomatikmuhendis/anadolu/issues/new) ve konuşalım.
+
+## Telif
+
+Kaynak gösterilerek istenilen her yerde kullanılabilir.

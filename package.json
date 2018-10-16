@@ -1,26 +1,26 @@
 {
-  "name": "dasper",
+  "name": "veri_veri_anadolu",
   "version": "1.0.0",
-  "description": "A Jekyll theme.",
+  "description": "illere göre bilgiler",
   "main": "gulpfile.js",
   "scripts": {
     "gulp": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ozgrozer@github.com/ozgrozer/dasper.git"
+    "url": "git+https://olcay@github.com/otomatikmuhendis/anadolu.git"
   },
   "keywords": [
     "jekyll",
     "theme",
     "dasper"
   ],
-  "author": "ozgrozer",
+  "author": "olcay",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ozgrozer/dasper/issues"
+    "url": "https://github.com/otomatikmuhendis/anadolu/issues"
   },
-  "homepage": "https://github.com/ozgrozer/dasper#readme",
+  "homepage": "http://anadolu.otomatikmuhendis.com/",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.1.0",

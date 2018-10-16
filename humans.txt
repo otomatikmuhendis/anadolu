@@ -4,7 +4,7 @@
 	From: Amsterdam, Netherlands
 
 /* THANKS */
-  Ornek: Oda Parfumu
+	Ornek: Oda Parfumu
 	Twitter: @oda_parfumu
 	From:Istanbul, Turkey
 	
