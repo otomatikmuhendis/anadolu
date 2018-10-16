@@ -1,0 +1,15 @@
+/* TEAM */
+	Maestro: Olcay Bayram
+	Contact: otomatikmuhendis [at] yahoo.com
+	From: Amsterdam, Netherlands
+
+/* THANKS */
+  Ornek: Oda Parfumu
+	Twitter: @oda_parfumu
+	From:Istanbul, Turkey
+	
+/* SITE */
+	Last update:2018/10/16
+	Language:Turkce
+	Doctype:HTML5
+	Software:Jekyll
