@@ -66,7 +66,11 @@ layout: default
   </div><!-- .full -->
 
 {% endif %}
-
+{% if page.viewScript != "" %}
+  <script src="{{ site.baseurl }}/assets/js/view/{{ page.viewScript }}"></script>
+{% else %}
+  <script src="{{ site.baseurl }}/assets/js/view/default.js"></script>
+{% endif %}
 <script src="{{ site.baseurl }}/assets/js/svg-turkiye-haritasi.js"></script>
 <script>
   svgturkiyeharitasi();
