@@ -1,12 +1,9 @@
 var dataView = function(parent){
     const id = parent.getAttribute('id');
 
-    var cityName = parent.getAttribute('data-iladi');
-
-    var cityAddress = cityName + ', Turkey';
-    dataTitle.innerHTML = cityAddress;
-
-    httpGetAsync( "https://www.radcheck.app/api/query?address="+ cityAddress, function( data ) {
+    var plateNumber = parent.getAttribute('data-plakakodu');
+    
+    httpGetAsync( "https://www.radcheck.app/api/query?id="+ data[plateNumber].viewId, function( data ) {
         dataList.innerHTML = '<li>Radyasyon seviyesi: '+data.rad_value+' µSv/h ±0.00 µSv/h</li>'
       });
 };

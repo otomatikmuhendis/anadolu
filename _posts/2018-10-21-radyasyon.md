@@ -8,8 +8,6 @@ viewScript: radiation.js
 
 <script>
 var data={
-    '34': {},
-    '22': {},
-    '59': {}
+    '34': {viewId: 151}
 };
 </script>
