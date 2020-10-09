@@ -2,13 +2,13 @@
 
 İllere göre verilerin sınıflandırıldığı bir websitesi. Açık kaynaklı bu proje her türlü katılıma açıktır. Katkıda bulunmak isteyenler istedikleri verileri ekleyebilir, gönülleri isterse verinin gösterim biçimini dahi istedikleri şekilde düzenleyebilirler.
 
-Site içeriği [Markdown](gıthub markdown) formatında yazılır. __posts_ klasörü içerisinde _.md_ uzantısıyla saklanır. Bu klasöre ekleme yapabileceğiniz gibi var olan dosyalar içerisinde de değişiklik yapabilirsiniz. Bu dosyalar [Jekyll](https://github.com/jekyll/jekyll) ile html sayfalara otomatik olarak dönüştürülür.
+Site içeriği [Markdown](https://guides.github.com/features/mastering-markdown/) formatında yazılır. __posts_ klasörü içerisinde _.md_ uzantısıyla saklanır. Bu klasöre ekleme yapabileceğiniz gibi var olan dosyalar içerisinde de değişiklik yapabilirsiniz. Bu dosyalar [Jekyll](https://github.com/jekyll/jekyll) ile html sayfalara otomatik olarak dönüştürülür.
 
 Bu projede [Doğukan Güven Nomak](https://github.com/dnomak/) tarafından hazırlanan Türkiye haritası ve [Özgür Özer](https://github.com/ozgrozer/) tarafından hazırlanan site tasarımı kullanılmıştır.
 
 ## Site
 
-[http://anadolu.otomatikmuhendis.com](http://anadolu.otomatikmuhendis.com/)
+[https://anadolu.otomatikmuhendis.com](https://anadolu.otomatikmuhendis.com/)
 
 ## Katkıda bulunmak
 

@@ -23,6 +23,5 @@ var data={
             url: 'https://www.youtube.com/channel/UCSQoLoVkRKf-UfCPysLk6dg'
         }
     ]
-    ]
 };
 </script>

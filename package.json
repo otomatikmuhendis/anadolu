@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/otomatikmuhendis/anadolu/issues"
   },
-  "homepage": "http://anadolu.otomatikmuhendis.com/",
+  "homepage": "https://anadolu.otomatikmuhendis.com/",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.1.0",

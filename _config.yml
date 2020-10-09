@@ -15,7 +15,7 @@ timezone: Europe/Istanbul
 paginateLabel: page
 paginate_path: "page/:num"
 permalink: /veri/:title
-baseurl: http://anadolu.otomatikmuhendis.com
+baseurl: https://anadolu.otomatikmuhendis.com
 github: https://github.com/otomatikmuhendis/anadolu
 
 # Includes

@@ -33,7 +33,11 @@ layout: default
     {% else %}
       {{ page.date | date_to_long_string | upcase }}
     {% endif %}
-  </span>
+  </span> 
+<!-- If addthisId declared -->
+{% if site.github != "" %}
+  <a href="{{ site.github }}/blob/master/{{ page.path }}">Bu sayfayı düzenle</a>
+{% endif %}
 
   <!-- Article description -->
   <section>{{ page.content }}</section>
