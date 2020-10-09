@@ -22,12 +22,7 @@ var data={
             title: 'İrfan Değirmenci',
             url: 'https://www.youtube.com/channel/UCSQoLoVkRKf-UfCPysLk6dg'
         }
-    ],
-    '07': [
-        {
-            title: 'Deli Mi Ne?',
-            url: 'https://www.youtube.com/channel/UC3S5Fep5xZ5JTJ4CZs3Gs5g'
-        }
+    ]
     ]
 };
 </script>
