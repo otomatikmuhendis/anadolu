@@ -12,11 +12,19 @@ var data={
             title: 'Olcay Bayram',
             url: 'https://olcay.dev'
         },
+
+     {
+            title: 'Canev Cilek',
+            url: 'https://github.com/canevport'
+    }
+    ],
     '20': [
         {
             title: 'Ethem Turgut',
             url: 'https://github.com/ethmtrgt'
+
         }
+    
     ]
 };
 </script>
