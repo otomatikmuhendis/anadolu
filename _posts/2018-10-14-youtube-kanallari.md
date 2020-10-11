@@ -22,6 +22,12 @@ var data={
             title: 'İrfan Değirmenci',
             url: 'https://www.youtube.com/channel/UCSQoLoVkRKf-UfCPysLk6dg'
         }
+    ],
+    '22': [
+        {
+            title: 'Olcay Bayram',
+            url: 'https://www.youtube.com/c/OlcayBayramOM'
+        }
     ]
 };
 </script>
