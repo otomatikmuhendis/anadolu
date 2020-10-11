@@ -11,7 +11,12 @@ var data={
         {
             title: 'Olcay Bayram',
             url: 'https://olcay.dev'
+        },
+     {
+            title: 'Canev Cilek',
+            url: 'https://github.com/canevport'
         }
+    
     ]
 };
 </script>
