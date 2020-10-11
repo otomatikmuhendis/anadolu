@@ -13,5 +13,11 @@ var data={
             url: 'https://olcay.dev'
         }
     ]
+    '34': [
+        {
+            title: 'Muhammed Sedef',
+            url: 'https://github.com/muhammedsedef'
+        }
+    ]
 };
 </script>
