@@ -2,6 +2,10 @@
 	Maestro: Olcay Bayram
 	Contact: otomatikmuhendis [at] yahoo.com
 	From: Amsterdam, Netherlands
+	
+	Dev: Bünyamin  Mete
+	Contact: metebunyaminn [at] gmail.com
+	From: Istanbul, Turkey
 
 /* THANKS */
 	Ornek: Oda Parfumu
