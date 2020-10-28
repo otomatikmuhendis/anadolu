@@ -6,6 +6,10 @@
 	Dev: Bünyamin  Mete
 	Contact: metebunyaminn [at] gmail.com
 	From: Istanbul, Turkey
+	
+	Dev: Ethem Turgut
+	Contact: ethmtrgt [at] gmail.com
+	From: Denizli, Turkey
 
 /* THANKS */
 	Ornek: Oda Parfumu
